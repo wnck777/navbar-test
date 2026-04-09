@@ -17,12 +17,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000de; 
+  background: #000000de;
+  border-radius: 5px; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #585858; 
+  border-radius: 5px;
 }
 
 /* Handle on hover */
@@ -195,7 +197,7 @@ header{
 }
 
 .bg-img{
-  background-image: url(images/kebs.jpg);
+  background-image: url(assets/images/kebs.jpg);
   min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
