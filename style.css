@@ -48,7 +48,7 @@ body{
 
 main{
   margin-top: 20px;
-  margin: 20px;
+  margin: 7px;
 }
 
 h1{
@@ -56,6 +56,7 @@ h1{
   margin-left: auto;
   font-size: var(--step-5);
   text-align: center;
+  margin-top: 7px;
 }
 
 h3{
@@ -148,7 +149,7 @@ iframe{
   background-image: linear-gradient(45deg, #9b5506, #ebaf0c);
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 16px 16px 16px #646464c5;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 #find-us p{
@@ -167,7 +168,7 @@ iframe{
   border-radius: 20px;
   background-image: linear-gradient(45deg, #9b5506, #ebaf0c);
   padding: 20px;
-  box-shadow: 16px 16px 16px #646464c5;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 #menu h1{
@@ -247,8 +248,9 @@ header{
 #gallery{
   border-radius: 20px;
   background-image: linear-gradient(45deg, #9b5506, #ebaf0c);
-  padding: 20px;
-  box-shadow: 16px 16px 16px #646464c5;
+  padding: 0px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .gallery-img-container{
@@ -256,9 +258,10 @@ header{
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 40px;
-  height: auto;
   overflow: auto;
   margin: auto;
+  max-height: 650px;
+  min-height: 350px;
 }
 
 .gallery-img{
