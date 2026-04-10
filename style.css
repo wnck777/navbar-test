@@ -71,7 +71,8 @@ p{
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 70vw;
+  width: 80vw;
+  max-width: 1000px;
   font-size: var(--step-1);
 }
 
@@ -295,7 +296,8 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5vw;
+  align-items: center;
+  gap: 3vw;
   width: fit-content;
   margin: auto;
   padding: 10px 1vw 0px 1vw;
@@ -306,15 +308,16 @@ table {
   padding-top: 10px;
 }
 
-th{
+th, td{
   font-size: var(--step-1);
   text-align: center;
+  padding-top: 5px;
 }
 
-td{
-  font-size: var(--step-1);
-  text-align: center;
+th{
+  padding-right: 2px;
 }
+
 
 #nr-tel{
   font-size: var(--step-0);
@@ -355,4 +358,13 @@ td{
   padding: 8px;
   border-radius: 10px;
   transition-duration: 300ms;
+}
+
+#about-us{
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, #9b5506, #ebaf0c);
+  padding: 0px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+  font-weight: 500;
 }
