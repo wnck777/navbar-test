@@ -334,12 +334,11 @@ th{
   color: #000000;
   padding: 8px;
   border-radius: 10px;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
 }
 
 .social-m a:hover{
   background-color: rgba(0, 0, 0, 0.205);
-  scale: 1.07;
 }
 
 .social-m a i{
@@ -372,10 +371,29 @@ th{
 h4{
   text-decoration: none;
   color: #000000;
-  font-size: var(--step-1);
+  font-size: var(--step-2);
   font-family: Courier, monospace;
 }
 
 .fa-phone{
-  padding-right: 2px;
+  padding-right: 5px;
+}
+
+.kontakt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.kon-cell{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+h6{
+  margin: 0px;
+  font-family: Courier, monospace;
+  font-size: var(--step--1);
 }
