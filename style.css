@@ -295,11 +295,10 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10vmin;
-  background-color: #ececec;
+  gap: 5vw;
   width: fit-content;
   margin: auto;
-  padding: 20px;
+  padding: 10px 1vw 0px 1vw;
   border-radius: 10px;
 }
 
@@ -318,5 +317,42 @@ td{
 }
 
 #nr-tel{
-  font-size: var(--step-1);
+  font-size: var(--step-0);
+}
+
+.social-m{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.social-m a{
+  color: #000000;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 300ms;
+}
+
+.social-m a:hover{
+  background-color: rgba(0, 0, 0, 0.205);
+  scale: 1.07;
+}
+
+.social-m a i{
+  width: 100%;
+  height: 100%;
+}
+
+.social-header{
+  position: absolute;
+  z-index: 4;
+  margin: auto;
+}
+
+.social-header a{
+  color: #000000;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 300ms;
 }
