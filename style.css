@@ -12,24 +12,24 @@
 }
 
 ::-webkit-scrollbar {
-  max-height: 13px;
+  max-height: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000de;
+  background: #696969de;
   border-radius: 5px; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #585858; 
+  background: #bbbbbb; 
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #454545; 
+  background: #9f9f9f; 
 }
 
 
@@ -41,7 +41,7 @@ html{
 body{
   font-family: "Raleway", monospace;
   font-size: 20px;
-  background-color: #ffffff;
+  background-color: #ececec;
   color: #000000;
   margin: 0px;
 }
@@ -57,6 +57,7 @@ h1{
   font-size: var(--step-5);
   text-align: center;
   margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 h3{
@@ -186,6 +187,7 @@ iframe{
   border-radius: 20px;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
@@ -260,24 +262,20 @@ header{
   gap: 40px;
   overflow: auto;
   margin: auto;
-  max-height: 650px;
-  min-height: 350px;
 }
 
 .gallery-img{
-  max-height: 600px;
-  min-height: 300px;
-  max-width: 500px;
-  min-width: 250px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
   object-fit: cover;
   padding: 10px;
 }
 
 .gallery-bq{
   padding: 10px;
-  background-color: #000000ad;
+  background-color: #ececec3b;
   border-radius: 20px;
-  max-height: 100%;
   width: 95%;
   max-width: 1500px;
   margin: auto;
