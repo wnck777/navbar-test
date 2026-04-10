@@ -17,7 +17,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #696969de;
+  background: #70707050;
   border-radius: 5px; 
 }
  
@@ -262,12 +262,14 @@ header{
   gap: 40px;
   overflow: auto;
   margin: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .gallery-img{
+  scroll-snap-align: center;
   width: 100%;
   max-width: 450px;
-  height: auto;
+  height: 70%;
   object-fit: cover;
   padding: 10px;
 }
