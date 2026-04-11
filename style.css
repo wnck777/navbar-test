@@ -361,12 +361,13 @@ th{
   background-color: #ececec6e;
   width: fit-content;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1050px;
   box-shadow: 0px 8px 16px #5a2d00;
 } 
 
 .about-us-content{
   padding: 10px;
+  max-width: 1000px;
 }
 
 h4{
