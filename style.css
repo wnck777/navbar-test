@@ -42,7 +42,7 @@ body{
   font-family: "Raleway", monospace;
   font-size: 20px;
   background-color: #ececec;
-  color: #000000;
+  color: #1a1a1a;
   margin: 0px;
 }
 
@@ -125,7 +125,7 @@ iframe{
   font-size: var(--step-0);
   font-family: "Raleway", monospace;
   padding: 0.5vw;
-  color: #000000;
+  color: #1a1a1a;
   background-color: #00000000;
   border-radius: 10px;
   border-width: 0px;
@@ -157,7 +157,7 @@ iframe{
 #find-us p{
   font-size: clamp(0.5rem, 2vw, 2rem);
   font-size: 15px;
-  color: #00000071;
+  color: #1a1a1a;
 }
 
 .mapa{
@@ -176,21 +176,6 @@ iframe{
 #menu h1{
   margin-bottom: 10px;
 }
-
-.menuimgcontainer{
-  display: flex;
-  justify-content: center;
-}
-
-#menuimg{
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
 
 header{
   margin-bottom: 0px;
@@ -277,12 +262,12 @@ header{
 
 .gallery-bq{
   padding: 10px;
-  background-color: #ececec3b;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: #ececec6e;
   width: 95%;
   max-width: 1500px;
   margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: 0px 8px 16px #5a2d00;
 }
 
 #order{
@@ -297,11 +282,14 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3vw;
   width: fit-content;
+  max-width: 1000px;
   margin: auto;
-  padding: 10px 1vw 0px 1vw;
+  padding: 10px 1vw 10px 1vw;
   border-radius: 10px;
+  background-color: #ececec6e;
+  box-shadow: 0px 8px 16px #5a2d00;
+  gap: 2vw;
 }
 
 table {
@@ -353,7 +341,7 @@ th{
 }
 
 .social-header a{
-  color: #000000;
+  color: #1a1a1a;
   padding: 8px;
   border-radius: 10px;
   transition-duration: 300ms;
@@ -368,9 +356,22 @@ th{
   font-weight: 500;
 }
 
+.about-us-container{
+  border-radius: 10px;
+  background-color: #ececec6e;
+  width: fit-content;
+  margin: auto;
+  max-width: 1000px;
+  box-shadow: 0px 8px 16px #5a2d00;
+} 
+
+.about-us-content{
+  padding: 10px;
+}
+
 h4{
   text-decoration: none;
-  color: #000000;
+  color: #1a1a1a;
   font-size: var(--step-2);
   font-family: Courier, monospace;
 }
@@ -396,4 +397,33 @@ h6{
   margin: 0px;
   font-family: Courier, monospace;
   font-size: var(--step--1);
+}
+
+h2{
+  font-size: var(--step-4);
+  margin: 1vw auto 0px auto;
+}
+
+.menucontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+  background-color: #ececec6e;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 3vh;
+  box-shadow: 0px 8px 16px #5a2d00;
+}
+
+.menu-pos{
+  font-size: var(--step-0);
+  margin-bottom: 10px;
+  border-width: 1px 0px 1px 0px;
+  padding: 1vw 0px 1vw 0px;
+  border-color: #1a1a1a34;
+  border-style: ridge;
+  max-width: 650px;
+  font-weight: 400;
 }
